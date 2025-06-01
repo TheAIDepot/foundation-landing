@@ -15,9 +15,6 @@
 [experimental]
   enable = true
 
-[[plugins]]
-  package = "@netlify/visual-editor-plugin"
-
 [visual_editor]
   paths = ["/*"]
 
