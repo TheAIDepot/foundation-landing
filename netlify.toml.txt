@@ -1,1 +1,21 @@
 
+[build]
+  publish = "public"
+  command = ""
+
+[[edge_functions]]
+  path = "/"
+  function = "visual-editor"
+
+[dev]
+  publish = "public"
+
+[functions]
+  directory = "netlify/functions"
+
+[experimental]
+  enable = true
+
+[visual_editor]
+  paths = ["/*"]
+
