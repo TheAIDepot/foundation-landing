@@ -16,14 +16,45 @@
     <p style="font-size: 1.2rem; margin-bottom: 2rem;">Automate outreach, book calls, and close deals with ease.</p>
     <a style="background-color: #00b894; padding: 0.75rem 1.5rem; border-radius: 5px; color: #000; font-weight: bold; text-decoration: none;">Book a Free Strategy Call</a>
     
-<!-- Calendly Inline Embed -->
-<div 
-  class="calendly-inline-widget" 
-  data-url="https://calendly.com/theaidepot/foundation-ai-call" 
-  style="min-width:320px;height:630px;">
-</div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+ <!-- Calendly Widget CSS -->
+  <link rel="stylesheet" href="https://assets.calendly.com/assets/booking/css/booking-531dac03.css" />
 
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    }
+
+    .calendly-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .calendly-inline-widget {
+      width: 100%;
+      max-width: 900px;
+      height: 90vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="calendly-container">
+    <div 
+      class="calendly-inline-widget" 
+      data-url="https://calendly.com/contactaidepot/30min" 
+      style="min-width:320px; height:100%;">
+    </div>
+  </div>
+
+  <!-- Calendly Embed Script -->
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+</body>
   </header>
 
   <!-- IMAGE SECTION -->
